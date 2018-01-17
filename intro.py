@@ -39,4 +39,5 @@ tuple_a = (1,2,3)
 print(tuple_a)
 print(type(tuple_a))
 
+# tuple은 한 번 생성 후 내부 값 불가
 # tuple_a.append(4) 불가능

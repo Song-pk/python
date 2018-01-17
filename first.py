@@ -1,3 +1,5 @@
+#data type
+
 # dict (map)
 # key % value
 
