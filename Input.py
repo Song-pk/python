@@ -5,7 +5,7 @@
 # print("Hello " + name)
 # print("You are " + age + "years old and were born in the month of " + bday)
 
-
+password = ("s3cr3t")
 ilogin = ("")
 ipass = ("")
 
@@ -15,17 +15,30 @@ def displayWelcome():
 
 
 def getUserLogin():
-    return input("Please enter your login name : ")
+    return input("root@127.0.0.1 : ")
 
 
 def getUserPass():
-    return input("Please enter your password : ")
+    return input("Password : ")
 
 def displayLoginCred(login, password):
     print("Login : " + login)
-    print("Pass : " + password)
+    print("Pass : " + passwrd)
+
+
+def checkPassword(passwrd):
+    global password
+    if passwrd == password:
+        return "true";
+    else:
+        return "false";
+
 
 displayWelcome()
 ilogin = getUserLogin()
 ipass = getUserPass()
-displayLoginCred(ilogin, ipass)
+
+
+print(checkPassword(ipass));
+
+# displayLoginCred(ilogin, ipass)
