@@ -2,14 +2,14 @@ import string
 
 # While Loop
 
-# x = 1
-# while True:
-#     print("We'll shutdown at count (100,000): " + str(x))
-#     if x == 100000:
-#         print("Shutdown down....")
-#         break
-#     x += 1
-# print("You have exited the loop.")
+x = 1
+while True:
+    print("We'll shutdown at count (100,000): " + str(x))
+    if x == 100000:
+        print("Shutdown down....")
+        break
+    x += 1
+print("You have exited the loop.")
 # => 1 - 100000 까지 출력
 
 
@@ -48,7 +48,7 @@ import string
 # => H e l l o W o r l d
 
 # Lists as an iterable
-collection = ['one', 2, 'three']
-for x in collection:
-    print(x)
+# collection = ['one', 2, 'three']
+# for x in collection:
+#     print(x)
 # => one 2 three
